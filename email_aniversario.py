@@ -8,8 +8,8 @@ from openpyxl import load_workbook
 def enviar_email(nomes,setor,dia,mes):
   outlook = Dispatch('outlook.application') #Obtendo uma instancia do outlook
   mail = outlook.CreateItem(0) #Criando objeto de amil
-  mail.To = 'gabriel.gomes@edpbr.com.br'#"o365_edpbr.com.br@edponcloud.onmicrosoft.com" #Email do destinatário
-  mail.sentOnBehalfOfName = "projeto-construcao@edpbr.com.br"
+  mail.To = 'destinatario@exemplo.mail.com' #Email do destinatário
+  mail.sentOnBehalfOfName = 'testador@exemplo.mail.com' #Enviar como 
   mail.CC = ""#Copia para alguem
   mail.Subject = f"Feliz Aniversário! Aniversariantes de {dia}/{mes}" #Assunto do E-mail
 
@@ -88,8 +88,4 @@ def enviar_email(nomes,setor,dia,mes):
 </body>
 </html>
   '''
-  # mail.Attachments.Add("Caminho do seu arquivo!")
-  # mail.Attachments.Add("C:\\Users\\7100746\\Desktop\\irineu.txt")
   mail.Send() #Envia o email
-
-# enviar_email()
