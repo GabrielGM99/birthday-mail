@@ -1,4 +1,5 @@
-# <b>Email de Aniversário Personalizado<b> #
+![Autor](https://img.shields.io/badge/Autor-Gabriel%20Gomes-green?color=red&label=Autor&style=for-the-badge)
+# **Email de Aniversário Personalizado** #
 
 # Requisitos
 
