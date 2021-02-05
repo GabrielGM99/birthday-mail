@@ -3,7 +3,7 @@
 
 # Requisitos
 
-  - Python 3.7.x 
+  - Python 3.6.x ou superior 
 
   - Libs: urllib3, pywin32, openpyxl
 
